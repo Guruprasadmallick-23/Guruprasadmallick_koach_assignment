@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.seller-name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.seller-name input{
+  width: 300px;
+  height: 20px;
+  margin: 10px;
+  padding: 5px;
+
+}
+ .seller-name input#description {
+   height: 100px;
+ }
+
+ .seller-name button{
+  width: 321px;
+  height: 40px;
+  margin: 10px;
+ }
+
+ .seller-name button:hover{
+   cursor: pointer;
+   color:black;
+   background-color: rgb(95, 95, 95);
+ }
+
+ .details button{
+  width: 321px;
+  height: 40px;
+  margin: 10px;
+ }
+
+ .details button:hover{
+  cursor: pointer;
+  color:black;
+  background-color: rgb(95, 95, 95);
+ }
+
+ .view{
+   width: 700px;
+   height: 150px;
+   border: 1px solid black;
+   margin: 10px;
+   display: flex;
+   padding: 10px;
+
+ }
+
+ .view h3{
+   margin: 20px;
+ }
